@@ -3,13 +3,12 @@
  */
 body {
   color: $text-color;
-  font-family: $ff-ss;
+  font-family: $ff;
 }
 
 .title {
   font-size: 2.2rem;
   margin: 1.25rem 0;
-  font-family: $ff-s;
   color: $main-color;
   position: relative;
   &:before, &:after {
@@ -30,6 +29,5 @@ body {
 
 p {
   font-size: 1.1rem;
-  font-family: $ff-ss;
   margin: 1.25rem auto;
 }

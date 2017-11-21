@@ -4,14 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:700|Ubuntu&subset=cyrillic-ext');
 
 
-/// Serif Font
+/// Font
 /// @type List
-$ff-s: 'Comfortaa', cursive !default;
-
-/// Sans-serif Font
-/// @type List
-$ff-ss:  'Comfortaa', cursive !default;
-
+$ff: 'Comfortaa', cursive !default;
 
 
 /// Copy text color

@@ -1,0 +1,16 @@
+#result {
+  background: $blue-gradient;
+  .title, .text {
+    color: $white;
+    &:before , &:after {
+      background: url('../images/dots-w.png') no-repeat;
+    }
+  }
+  .before-after {
+    justify-content: space-between;
+    margin-top: 5rem;
+    img {
+      max-width: 47%;
+    }
+  }
+}

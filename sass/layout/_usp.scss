@@ -1,0 +1,38 @@
+#usp {
+  .grid {
+    @media screen and (max-width: 980px)  {
+      justify-content: space-around;
+    }
+  }
+    background: linear-gradient(156deg, rgba(2, 179, 228, 0.95) 0%, rgba(36, 113, 169, 0.95) 100%), url('../images/usp-bg.jpg');
+    background-size: cover;
+    .usp-holder {
+      justify-content: flex-start;
+      margin: 20px 0;
+      h3 {
+        color: $white;
+        font-size: 1rem;
+      }
+      img {
+        margin-right: 20px;
+      }
+    }
+      .ups-group-center {
+        margin: 1em 2em ;
+        @media screen and (max-width: 980px)  {
+          display: none;
+        }
+      }
+      .ups-group-right .usp-holder:nth-child(2),.ups-group-left .usp-holder:nth-child(2) {
+        margin: 5rem auto;
+      }
+    .ups-group {
+      .usp-holder {
+        margin: 3rem 0;
+      }
+    }
+    .alone {
+      justify-content: center;
+    }
+
+}

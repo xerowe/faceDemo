@@ -1,0 +1,26 @@
+#about {
+  padding: 0;
+  .grid {
+    flex-wrap: nowrap;
+  @media screen and (max-width: 980px) {
+    flex-wrap: wrap;
+  }
+  }
+  img {
+    position: relative;
+    left: -20%;
+    bottom: 0;
+    margin-top: 1.3rem;
+  @media screen and (max-width: 980px) {
+    left: 0;
+    order: 2;
+    max-width: 40%;
+  }
+  }
+  // background: url('../images/woman-face.jpg') left bottom no-repeat;
+  .about-text {
+    img {
+      left: 0;
+    }
+  }
+}

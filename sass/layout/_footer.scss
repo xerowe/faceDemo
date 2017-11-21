@@ -1,0 +1,12 @@
+footer {
+  background: $blue-gradient;
+  margin-top: -5px;
+  p {
+    text-align: center;
+    font-size: 0.75rem;
+    color: $white;
+    margin: 0;
+    padding: 1rem;
+    max-width: 100%;
+  }
+}

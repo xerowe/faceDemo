@@ -1,0 +1,12 @@
+#cta {
+  background: $blue-gradient;
+  color: $white;
+  padding: 4vh 0;
+  .wrapper {
+    justify-content: space-evenly;
+    h4 {
+      font-size: 2rem;
+      text-shadow:0 0 1px $text-color;
+    }
+  }
+}

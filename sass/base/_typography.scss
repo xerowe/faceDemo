@@ -1,0 +1,36 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font-family: $ff-ss;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin: 1.25rem 0;
+  font-family: $ff-s;
+  color: $main-color;
+  position: relative;
+  &:before, &:after {
+  content: "";
+  display: inline-block;
+  background: url('../images/dots.png');
+  background-repeat: no-repeat;
+  height: 12px;
+  width: 30px;
+  vertical-align: middle;
+  margin-left: 10px;
+  }
+  &:before {
+      transform: rotateY(180deg);
+      margin-right: 10px;
+  }
+}
+
+p {
+  font-size: 1.1rem;
+  font-family: $ff-ss;
+  margin: 1.25rem auto;
+  letter-spacing: 0.03em;
+}

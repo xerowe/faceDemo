@@ -1,0 +1,16 @@
+#contacts {
+  padding-bottom: 0;
+  .contacts-holder {
+    align-items: baseline;
+    .contact {
+      margin: 5rem auto;
+      @media screen and (max-width: 980px) {
+        margin: 2rem;
+      }
+      p {
+        max-width: 100%;
+        margin: 0.3rem auto;
+      }
+    }
+  }
+}

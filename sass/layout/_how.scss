@@ -1,0 +1,17 @@
+#how-it-works {
+  p {
+    max-width: 55%;
+    @media screen and (max-width: 980px) {
+      max-width: 90%;
+    }
+  }
+  .video {
+    margin-top: 5rem;
+    iframe {
+      max-width: 560px;
+      width: 90%;
+      height: 315px;
+      @include l-shadow;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+
+html {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,span {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+  width: 90%;
+}
+
+section {
+  padding: 10vh 0;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+  & :hover {
+    color: $main-color;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 12px;
+  }
+  section {
+    padding: 5vh 0;
+  }
+}

@@ -9,6 +9,8 @@
     .usp-holder {
       justify-content: flex-start;
       margin: 20px 0;
+      flex-wrap: nowrap;
+      text-align: left;
       h3 {
         color: $white;
         font-size: 1rem;

@@ -25,6 +25,11 @@ body {
       transform: rotateY(180deg);
       margin-right: 10px;
   }
+  @media screen and (max-width: 498px) {
+    &:before, &:after {
+      display: none;
+    }
+  }
 }
 
 p {

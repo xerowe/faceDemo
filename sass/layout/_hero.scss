@@ -23,10 +23,16 @@
     }
   nav {
   text-align: left;
+    a {
+      margin-right: 20px;
+      &:hover {
+        color: $main-color;
+        text-decoration: underline;
+        transition: all 0.2s ease;
+      }
+    }
   }
-  a {
-    margin-right: 20px;
-  }
+
   .hero-text {
     text-align: left;
     margin-top: 20vh;
